@@ -1,0 +1,30 @@
+{
+  "name": "ultimate-v-form",
+  "version": "1.0.0",
+  "description": "Form constructor for nuxt2",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maxxounee/ultimateForm.git"
+  },
+  "keywords": [
+    "art3d",
+    "form",
+    "nuxt",
+    "nuxt2",
+    "ultimateform"
+  ],
+  "author": "Vladimirov Maxim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maxxounee/ultimateForm/issues"
+  },
+  "homepage": "https://github.com/Maxxounee/ultimateForm#readme",
+  "dependencies": {
+    "v-mask": "^2.3.0"
+  }
+}

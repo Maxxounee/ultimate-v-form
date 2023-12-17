@@ -4,7 +4,7 @@ import FormSend from './components/FormSend.vue';
 import FormText from './components/FormText.vue';
 import FormAgree from './components/FormAgree.vue';
 
-export default {
+export {
     FormWrapper,
     FormInput,
     FormSend,

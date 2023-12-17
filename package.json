@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Maxxounee/ultimateForm.git"
+    "url": "git+https://github.com/Maxxounee/ultimate-v-form.git"
   },
   "keywords": [
     "art3d",
@@ -21,9 +21,9 @@
   "author": "Vladimirov Maxim",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Maxxounee/ultimateForm/issues"
+    "url": "https://github.com/Maxxounee/ultimate-v-form/issues"
   },
-  "homepage": "https://github.com/Maxxounee/ultimateForm#readme",
+  "homepage": "https://github.com/Maxxounee/ultimate-v-form#readme",
   "dependencies": {
     "v-mask": "^2.3.0"
   }

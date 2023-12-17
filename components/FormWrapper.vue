@@ -20,7 +20,6 @@
 
 <script>
 export default {
-	/* TODO: не забыть про возможность работы со счетчиками */
 	props: {
 		type: {
 			type: String,
@@ -53,7 +52,6 @@ export default {
 			sendPending: false,
 		};
 	},
-	computed: {},
 	watch: {
 		formValue: {
 			handler(data) {
@@ -68,14 +66,12 @@ export default {
 			this.$emit('available', value);
 		},
 	},
-	mounted() {
-	},
 	methods: {
 		createFormData() {
 			const form = new FormData();
 			form.append('type', this.type);
 			Object.entries(this.formValue).forEach(([key, value]) => {
-				form.append(key, value);
+				form.append(key, value.value);
 			});
 			Object.entries(this.additional).forEach(([key, value]) => {
 				form.append(key, value);

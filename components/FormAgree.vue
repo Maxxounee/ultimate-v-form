@@ -10,7 +10,9 @@
 			</slot>
 		</div>
 		<div class="FormAgree__text">
-			<slot>Согласие на обработку персональных данных</slot>
+			<slot>
+        <span v-html="text"></span>
+      </slot>
 		</div>
 	</div>
 </template>
@@ -22,6 +24,10 @@ export default {
 			type: Boolean,
 			default: false,
 		},
+    text: {
+      type: String,
+      default: 'Согласие на обработку персональных данных',
+    },
 	},
 	emits: ['update'],
 	data() {
